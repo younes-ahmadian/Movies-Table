@@ -8,6 +8,12 @@ import { getMovies } from '../services/fakeMovieService';
      render() { 
          return (
             <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th>Stock</th>
+                    <th>Rate</th>
+                </tr>
                 
             </table>
         );
