@@ -9,7 +9,7 @@ class TableBody extends Component {
     }
 
     createKey = (item, column) => {
-        return (item.key + (column.path || column.key));
+        return (item._id + (column.path || column.key));
     }
     render() { 
         const {data, columns } = this.props;    
